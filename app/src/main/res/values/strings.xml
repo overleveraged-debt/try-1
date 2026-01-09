@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">SpendBubble</string>
+    <string name="overlay_permission_rationale">This app requires "Display over other apps" permission to show the floating bubble.</string>
+    <string name="notification_channel_name">Overlay Service</string>
+    <string name="notification_title">SpendBubble Active</string>
+    <string name="notification_text">Tap to manage budgeting</string>
+</resources>
