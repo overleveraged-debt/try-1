@@ -22,6 +22,8 @@ jobs:
         
     - name: Setup Gradle
       uses: gradle/gradle-build-action@v2
+      with:
+        gradle-version: '8.5'
       
     - name: Build with Gradle
       # Using 'gradle' directly since we might not have the wrapper committed yet
